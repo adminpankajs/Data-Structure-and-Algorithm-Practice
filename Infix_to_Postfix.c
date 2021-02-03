@@ -56,3 +56,9 @@ int main()
     }
     return 0;
 }
+
+
+//OUTPUT
+
+// Enter the expression : (2*3+4*(5-6))
+// 23*456-*+
