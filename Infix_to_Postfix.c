@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 char stack[20];
 int top = -1;
@@ -28,9 +29,10 @@ int main()
 {
     char exp[20];
     char *e, x;
-    printf("Enter the expression : ");
+    printf("Enter the infix expression : ");
     scanf("%s",exp);
     e = exp;
+    printf("Postfix Expression : ");
     while(*e != '\0')
     {
         if(isalnum(*e))
